@@ -1,6 +1,5 @@
 import React from "react";
 import mitt from 'mitt'
-import { func } from "prop-types";
 
 // 创建一个上下文对象 用于组件间的通讯
 export const BusContext = React.createContext(null)
