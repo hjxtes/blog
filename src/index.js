@@ -7,6 +7,8 @@ import {Provider as BusProvider} from '@/hooks/useBus';
 import { Provider } from 'react-redux'
 import store from '@/redux'
 
+import '@/styles/index.less'
+
 
 ReactDOM.render(
     <BusProvider>
